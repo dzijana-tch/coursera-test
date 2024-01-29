@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:#ffebcc;
+  font-family: 'Overpass', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #fa8072;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Overpass', sans-serif;
+  color: #ffff00;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #ff9900;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a {
+  text-decoration: none;
+}
+
+#nav-list {
+  color: #ffff94;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #fa9386;
+  text-shadow: 1px 1px 1px #800000;
+}
+#nav-list a:hover {
+  background-color: #fff0d9;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#page-title {
+  margin: 10px;
+  color: #8f001f;
+  font-weight: bold;
+}
+.tile {
+  background-color: #ffff94;
+  color: #b04052;
+  font-weight: bold;
+}
+p.tile-title {
+  font-size: 1.4em;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 15px;
+  margin: 0px;
+}
+p.tile-text {
+  padding: 10px;
+}
+/* END HOME PAGE */
